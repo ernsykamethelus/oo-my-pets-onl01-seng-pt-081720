@@ -8,7 +8,6 @@ class Owner
       end
       
       def cannot_change_owner_name(name)
-        binding.pry
     raise NoMethodError, "#{owner.name}" if !owner.is_a?(Owner)
   end
     end
